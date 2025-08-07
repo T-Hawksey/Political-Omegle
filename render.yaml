@@ -5,7 +5,6 @@ services:
     plan: free
     buildCommand: |
       npm install
-      npm run install-server
       npm run install-client
       npm run build
     startCommand: npm start
