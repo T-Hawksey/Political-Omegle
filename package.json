@@ -2,12 +2,10 @@
   "name": "political-omegle",
   "version": "1.0.0",
   "description": "A political Omegle clone",
-  "main": "server/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server/server.js",
-    "build": "cd client && npm install && npm run build",
-    "install-server": "cd server && npm install",
-    "install-client": "cd client && npm install"
+    "start": "node server.js",
+    "build": "npm install && cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
